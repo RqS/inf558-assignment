@@ -1,0 +1,36 @@
+#
+# Example of configuration for crawling all pages of the web sites in the seeds
+#
+
+# Change to false if you don't want to store pages classified as irrelevant
+target_storage.store_negative_pages: false
+
+# Enables "scope" to only crawl pages that belong to domains of seed URLs
+link_storage.link_strategy.use_scope: true
+
+# Performs hard focus or soft focus. When hard focus is enabled,
+# the crawler only follows links from pages classified as relevant
+target_storage.hard_focus: false
+
+# Types of LinkSelectors available:
+# - TopkLinkSelector
+# - RandomLinkSelector
+# - NonRandomLinkSelector
+# - MultiLevelLinkSelector
+# - MaximizeWebsitesLinkSelector
+# Select URLs from all domains during link selection phase,
+link_storage.link_selector: TopkLinkSelector
+
+# Configure the minimum time interval (in milliseconds) to wait between requests
+# to the same host to avoid overloading servers. If you are crawling your own
+# web site, you can descrease this value to speed-up the crawl.
+link_storage.scheduler.host_min_access_interval: 2000
+
+# Enables discovery of links using the Sitemaps protocol
+# link_storage.download_sitemap_xml: true
+
+# Configure the User-Agent of the crawler
+target_storage.data_format.type: FILESYSTEM_HTML
+
+crawler_manager.downloader.user_agent.name: ACHE
+crawler_manager.downloader.user_agent.url: https://github.com/ViDA-NYU/ache

@@ -1,0 +1,6 @@
+type: url_regex
+parameters:
+  regular_expressions: [
+    "https:\\/\\/www\\.transfermarkt\\.com\\/.*\\/profil\\/spieler\\/.[^\\/]*",
+    "https://www.transfermarkt.com/spieler-statistik/wertvollstespieler/marktwertetop",
+    ]
