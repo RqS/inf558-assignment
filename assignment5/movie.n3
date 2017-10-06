@@ -1,0 +1,29 @@
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[]
+  schema:accessibilitySummary "A young African American man visits his European American girlfriend's family estate where he learns that many of its residents, who are black, have gone missing, and he soon learns the horrible truth when another frantic African-American warns him to \"get out\". He soon learns this is easier said than done."^^xsd:string ;
+  schema:actor [
+    schema:birthDate "1989-05-08"^^xsd:string ;
+    schema:birthPlace [
+      schema:City "London"^^xsd:string ;
+      schema:Country "United Kingdom"^^xsd:string
+    ] ;
+    schema:name "Daniel Kaluuya"^^xsd:string
+  ], [
+    schema:birthDate "1988-04-13"^^xsd:string ;
+    schema:birthPlace [
+      schema:City "New Canaan"^^xsd:string ;
+      schema:Country "United States"^^xsd:string ;
+      schema:State "Connecticut"^^xsd:string
+    ] ;
+    schema:name "Allison Williams"^^xsd:string
+  ], [ schema:name "Bradley Whitford"^^xsd:string ] ;
+  schema:aggregateRating "8.0"^^xsd:string ;
+  schema:contentRating "R"^^xsd:string ;
+  schema:copyrightYear "2017"^^xsd:string ;
+  schema:datePublished "2017-02-24"^^xsd:string ;
+  schema:duration "103"^^xsd:string ;
+  schema:genre "Horror"^^xsd:string, "Mystery"^^xsd:string ;
+  schema:name "Get Out"^^xsd:string ;
+  schema:ratingValue "6"^^xsd:string, "7"^^xsd:string, "9"^^xsd:string .

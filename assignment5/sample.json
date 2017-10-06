@@ -1,0 +1,43 @@
+{
+  "title": "Get Out",
+  "year": "2017",
+  "genres": [
+    "Horror",
+    "Mystery"
+  ],
+  "ratings": [
+    "6",
+    "6",
+    "7",
+    "6",
+    "7",
+    "9"
+  ],
+  "contentRating": "R",
+  "duration": "103",
+  "releaseDate": "2017-02-24",
+  "storyline": "A young African American man visits his European American girlfriend's family estate where he learns that many of its residents, who are black, have gone missing, and he soon learns the horrible truth when another frantic African-American warns him to \"get out\". He soon learns this is easier said than done.",
+  "actors": [
+    {
+      "name": "Daniel Kaluuya",
+      "birthDate": "1989-05-08",
+      "birthPlace": {
+        "city": "London",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "name": "Allison Williams",
+      "birthDate": "1988-04-13",
+      "birthPlace": {
+        "city": "New Canaan",
+        "state": "Connecticut",
+        "country": "United States"
+      }
+    },
+    {
+      "name": "Bradley Whitford"
+    }
+  ],
+  "imdbRating": "8.0"
+}
